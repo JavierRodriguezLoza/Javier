@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Rodríguez Loza - Currículum</title>
+    <link rel="stylesheet" href="resume-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="resume-header">
+        <nav class="resume-nav">
+            <a href="index.html" class="back-button">
+                <i class="fas fa-arrow-left"></i> Volver al Portafolio
+            </a>
+            <div class="resume-actions">
+                <button id="printBtn" class="btn btn-primary">
+                    <i class="fas fa-print"></i> Imprimir
+                </button>
+                <!--
+                <button id="downloadPdf" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Descargar PDF
+                </button>
+                -->
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="resume-container">
+        <!-- Sidebar -->
+        <aside class="resume-sidebar">
+            <!-- Foto de Perfil -->
+            <div class="profile-section">
+                <div class="profile-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user"></i>
+                        <img id="Foto" src="Foto.jpeg">
+                    </div>
+                </div>
+                <h1 class="profile-name">Javier Rodríguez Loza</h1>
+                <p class="profile-title">Desarrollador Frontend</p>
+            </div>
+
+            <!-- Información de Contacto -->
+            <div class="contact-info">
+                <h3>Contacto</h3>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:javier.rodriguez.lozas@gmail.com">javier.rodriguez.lozas@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+53 52761152</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Habana, Cuba</span>
+                </div>
+                <!--
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="#" target="_blank">GitHub</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="#" target="_blank">LinkedIn</a>
+                </div>
+                -->
+            </div>
+
+            <!-- Habilidades Técnicas -->
+            <div class="skills-section">
+                <h3>Habilidades Técnicas</h3>
+                <div class="skill-category">
+                    <h4>Frontend</h4>
+                    <div class="skill-item">
+                        <span>HTML5</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>CSS3</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="90"></div>
+                        </div>    
+                    </div>
+                    <div class="skill-item">
+                        <span>JavaScript</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>React</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="20"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h4>Herramientas</h4>
+                    <div class="skill-item">
+                        <span>Git/GitHub</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Vite</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Node.js</span>
+                        <div class="skill-level">
+                            <div class="skill-bar" data-level="10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Idiomas -->
+            <div class="languages-section">
+                <h3>Idiomas</h3>
+                <div class="language-item">
+                    <span>Español</span>
+                    <div class="language-level">
+                        <span class="level-dot active"></span>
+                        <span class="level-dot active"></span>
+                        <span class="level-dot active"></span>
+                        <span class="level-dot active"></span>
+                        <span class="level-dot active"></span>
+                    </div>
+                </div>
+                <div class="language-item">
+                    <span>Inglés</span>
+                    <div class="language-level">
+                        <span class="level-dot active"></span>
+                        <span class="level-dot"></span>
+                        <span class="level-dot"></span>
+                        <span class="level-dot"></span>
+                        <span class="level-dot"></span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <section class="resume-content">
+            <!-- Resumen Profesional -->
+            <div class="section">
+                <h2>Resumen Profesional</h2>
+                <div class="section-content">
+                    <p>
+                        Desarrollador Frontend meticuloso especializado en crear experiencias web excepcionales 
+                        para negocios locales. Apasionado por la UX y el desarrollo de proyectos web rápidos 
+                        y eficientes. Experiencia en la creación de páginas web, portafolios, blogs y 
+                        currículums vitae personalizados.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Experiencia Profesional -->
+            <div class="section">
+                <h2>Experiencia Profesional</h2>
+                <div class="section-content">
+                    <!-- Experiencia 1 -->
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Desarrollador Frontend Freelance</h3>
+                            <span class="experience-date">2024 - Presente</span>
+                        </div>
+                        <div class="experience-company">Autónomo</div>
+                        <ul class="experience-description">
+                            <li>Desarrollo de páginas web personalizadas para negocios locales</li>
+                            <li>Creación de portafolios y CV digitales para profesionales</li>
+                            <li>Diseño y desarrollo de blogs y páginas personales</li>
+                            <li>Optimización de velocidad y experiencia de usuario</li>
+                            <li>Mantenimiento y actualización de sitios web existentes</li>
+                        </ul>
+                    </div>
+
+                    <!-- Experiencia 2 -->
+                    <div class="experience-item">
+                        <div class="experience-header">
+                            <h3>Desarrollador Web Junior</h3>
+                            <span class="experience-date">2022 - 2024</span>
+                        </div>
+                        <div class="experience-company">Proyectos de la Universidad de las ciencias informaticas</div>
+                        <ul class="experience-description">
+                            <li>Desarrollo de interfaces de usuario con HTML5, CSS3 y JavaScript</li>
+                            <li>Colaboración en proyectos de diseño responsive</li>
+                            <li>Implementación de mejoras de usabilidad y accesibilidad</li>
+                            <li>Mantenimiento de código existente y resolución de bugs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proyectos Destacados 
+            <div class="section">
+                <h2>Proyectos Destacados</h2>
+                <div class="section-content">
+
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3>Web para Negocio Local - Restaurante "El Sabor"</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">
+                            Desarrollo completo de página web responsive incluyendo menú digital, 
+                            sistema de reservas y integración con redes sociales. 
+                            <strong>Resultado:</strong> Aumento del 40% en reservas online.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Vite</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3>Portafolio Digital - Fotógrafo Profesional</h3>
+                            <span class="project-date">2023</span>
+                        </div>
+                        <p class="project-description">
+                            Galería interactiva optimizada para mostrar trabajos fotográficos 
+                            con sistema de categorías y contacto integrado.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Lightbox</span>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <h3>Blog Personal - Escritor Independiente</h3>
+                            <span class="project-date">2022</span>
+                        </div>
+                        <p class="project-description">
+                            Plataforma de blogging personalizada con sistema de comentarios, 
+                            búsqueda y diseño optimizado para lectura.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        -->
+            <!-- Educación -->
+            <div class="section">
+                <h2>Educación</h2>
+                <div class="section-content">
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3> Ingenieria en ciencias informaticas</h3>
+                            <span class="education-date">2020-2024</span>
+                        </div>
+                        <div class="education-institution">Universidad de las ciencias informaticas (UCI)</div>
+                        <p class="education-description">
+                            <ul class="experience-description">
+                                <li>Me gradue con titulo de oro</li>
+                                <li>Trabaje en varios proyectos de la universidad</li>
+                                <li>Prepare a otros estudiantes para que superaran los examenes</li>
+                                <li>Me destaque como ajedrecista en los juegos mella</li>
+                                <li>Participe en actividades artisticas como flautista</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <!--
+                    <div class="education-item">
+                        <div class="education-header">
+                            <h3>Curso de Desarrollo Web Moderno</h3>
+                            <span class="education-date">2021</span>
+                        </div>
+                        <div class="education-institution">Plataforma Online</div>
+                        <p class="education-description">
+                            Especialización en HTML5, CSS3, JavaScript y herramientas modernas de desarrollo.
+                        </p>
+                    </div>
+                    -->
+                </div>
+            </div>
+
+            <!-- Certificaciones -->
+            <div class="section">
+                <h2>Certificaciones</h2>
+                <div class="section-content">
+                    <div class="certification-item">
+                        <h3>JavaScript Moderno</h3>
+                        <span class="certification-date">2023</span>
+                        <div class="certification-issuer">Plataforma de Cursos Online</div>
+                    </div>
+                    <div class="certification-item">
+                        <h3>Desarrollo Frontend con Vite</h3>
+                        <span class="certification-date">2022</span>
+                        <div class="certification-issuer">Comunidad de Desarrollo</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="resume-script.js"></script>
+</body>
+</html>
